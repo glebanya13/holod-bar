@@ -1,0 +1,37 @@
+/* ХОЛОДЪ — exact design scroll (from PDF) */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  background: #181818;
+}
+
+body {
+  min-height: 100vh;
+  background: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+}
+
+.menu-scroll {
+  width: min(100%, 28rem);
+  margin: 0 auto;
+  background: #181818;
+  line-height: 0;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.55);
+}
+
+.slide {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  user-select: none;
+  -webkit-user-drag: none;
+}

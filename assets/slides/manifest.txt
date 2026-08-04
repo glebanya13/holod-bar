@@ -1,0 +1,7 @@
+assets/slides/s00.webp|1400
+assets/slides/s01.webp|1400
+assets/slides/s02.webp|1400
+assets/slides/s03.webp|1400
+assets/slides/s04.webp|1400
+assets/slides/s05.webp|1400
+assets/slides/s06.webp|737
